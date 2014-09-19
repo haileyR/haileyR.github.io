@@ -15,9 +15,9 @@
 #### Sharing my experience in the DBC world.
 #### 2014. 09. 18
 
-This is my first ever blog posting. Althogh I'm not a good writer or enjoy writing, I will start to like it and someday I expect to see myself enjoying it!
+This is my first ever blog posting. Althogh I am not a good writer or enjoy writing, I will start to like it and someday I expect to see myself enjoying it!
 
-Aa being an electrical engineering student, I had few chances to play with programming, so I know about half of the terms. BUT, I was not sure what they really meant. After reading few desctiptions and watching vidoes, I think I get what those mean. I will talk about few things that I learned last 2 days.
+As being an electrical engineering student, I had few chances to play with programming, so I know about half of the terms. BUT, I was not sure what they really meant. After reading few desctiptions and watching vidoes, I think I get what those mean. I will talk about few things that I learned last 2 days.
 
 
 ### What are the benefits of version control?
