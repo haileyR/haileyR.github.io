@@ -1,0 +1,113 @@
+html{
+  background-color: #F5FFFA;
+
+}
+body {
+
+    margin: 0;
+    padding: 0;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+
+}
+h2{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#mainmenucontainer{
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #B0C4DE;
+  margin: auto;
+}
+#header #mainmenucontainer li a{
+  color: #FF69B4;
+}
+
+#header #mainmenucontainer ul li{
+  display: inline-block;
+}
+#header #mainmenucontainer ul li a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 15px 8px 15px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 17px;
+  background-color: #FFE4E1;
+}
+#header #mainmenucontainer ul a:hover{
+  color: #4682B4;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+#header{
+  background-color: white;
+  margin: 10px;
+  background-image: url("../img/myphoto2.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+#search{
+}
+
+h3{
+  font-family: HanziPen, helvetica, arial, sans-serif;
+}
+.introwords{
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  color: #708090;
+  font-weight: bold;
+}
+
+
+
+#footerCont{
+  position: relative;
+  text-align: center;
+
+  background-color: #E6E6FA;
+  bottom: 0px;
+  border: 1px solid #B0C4DE;
+  padding: 20px 5px 20px;
+  width: 100%;
+
+}
+
+.footer{
+  position: relative;
+  display: inline-block;
+
+  border: 1px solid #B0C4DE;
+  border-left: 4px solid #ADD8E6;
+  padding-left: 30px;
+  width: 25%;
+}
+
+#footerCont .footer ul li{
+  display: block;
+  text-align: left;
+
+}
+
+#footerCont .footer ul li a{
+  color: #4682B4;
+  font-family: 'Maven Pro', sans-serif;
+}
+#footerCont .footer ul li a:hover{
+  color: #FF69B4;
+
+}
+
+#footerCont .footer h3{
+  font-family: 'Pacifico', cursive;
+  color:#4682B4;
+}
