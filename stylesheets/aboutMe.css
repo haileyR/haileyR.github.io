@@ -3,16 +3,16 @@ html{
 
 }
 body {
-
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 h1{
-  font-family: 'Pacifico', cursive;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", 'Pacifico', sans-serif;
 
 }
 h2{
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: "Trebuchet MS", Helvetica, 'Yanone Kaffeesatz', sans-serif;
 }
 #currentPage{
     background-color: #FFE4E1;
@@ -61,29 +61,33 @@ a{
 h3{
   font-family: HanziPen, helvetica, arial, sans-serif;
 }
-.introwords{
-  width: 70%;
+#introwords{
+  text-align: left;
+  position: relative;
+  width: 50%;
   margin-right: auto;
   margin-left: auto;
   font-family: Arial;
   font-size: 15px;
   color: #708090;
+
 }
-.introwords p{
+#introwords p{
 
 }
 
 
 #footerCont{
+
   position: absolute;
   text-align: center;
-
+  clear: both;
   background-color: #E6E6FA;
   bottom: 0px;
   border: 1px solid #B0C4DE;
   padding: 20px 5px 20px;
   width: 100%;
-
+  display: block;
 }
 
 .footer{
