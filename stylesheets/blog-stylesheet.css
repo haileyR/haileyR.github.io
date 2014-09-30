@@ -90,6 +90,9 @@ a{
   float: left;
   font-family: 'Coming Soon',"Comic Sans MS", sans-serif;
 }
+.posting h3{
+    font-family: 'Coming Soon',"Comic Sans MS", sans-serif;
+}
 
 p img{
   margin: 15px;
@@ -154,4 +157,9 @@ list-style: none;
   font-family: 'Maven Pro', 'Coming Soon',"Comic Sans MS", sans-serif;
   color:#FF69B4;
   font-size: 20px;
+}
+
+
+#resources{
+  text-decoration: none;
 }
