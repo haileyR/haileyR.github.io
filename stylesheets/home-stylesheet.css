@@ -3,16 +3,16 @@ html{
   position: relative;
 }
 body {
-
-    margin: 0;
-    padding: 0;
+  margin:0;
+  padding:0;
+  height:100%;
 }
 h1{
   font-family: 'Pacifico', "Lucida Sans Unicode", "Lucida Grande", 'Pacifico', sans-serif;
 
 }
 h2{
-  font-family: "Trebuchet MS", Helvetica, 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Coming Soon', "Trebuchet MS", Helvetica, 'Yanone Kaffeesatz', sans-serif;
 }
 
 #mainmenucontainer{
@@ -46,19 +46,21 @@ a{
   text-decoration: none;
 }
 
-
+#cont{
+  min-height:100%;
+  position:relative;
+}
 #header{
   background-color: white;
   margin: 10px;
   height: 300px;
-    border-bottom: 2px solid #B0C4DE;
+  border-bottom: 2px solid #B0C4DE;
 
   /*background-image: url(../img/myphoto2.jpg);
   background-repeat: no-repeat;
   background-position: right top;*/
 }
 #header img{
-
   position: absolute;
   top: 30px;
   right: 6%;
@@ -71,26 +73,27 @@ a{
 h3{
   font-family: HanziPen, helvetica, arial, sans-serif;
 }
-.introwords{
+#introwords{
   width: 70%;
   margin-right: auto;
   margin-left: auto;
-  font-family: "Comic Sans MS", "Comic Sans MS", sans-serif;
+  font-family: "Coming Soon", "Comic Sans MS", "Comic Sans MS", sans-serif;
   font-size: 25px;
   color: #708090;
+  padding-bottom: 300px;
 }
 
 
 
 #footerCont{
   position: absolute;
+  bottom: 0px;
+
   text-align: center;
-    bottom: 0px;
-
-
   background-color: #E6E6FA;
-  border: 1px solid #B0C4DE;
+  border-top: 2px solid #B0C4DE;
   padding: 20px 5px 20px;
+  height: 250px;
   width: 100%;
 
 }
