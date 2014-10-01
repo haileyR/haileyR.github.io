@@ -26,7 +26,7 @@ h1{
 
 }
 h2{
-  font-family: "Trebuchet MS", Helvetica, 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Coming Soon', "Trebuchet MS", Helvetica, 'Yanone Kaffeesatz', sans-serif;
 }
 
 #currentPage{
@@ -162,4 +162,15 @@ list-style: none;
 
 #resources{
   text-decoration: none;
+}
+
+
+
+
+pre {
+    white-space: pre-wrap;
+}
+code{
+  font-size: 15.5px;
+  color:#4169E1;
 }

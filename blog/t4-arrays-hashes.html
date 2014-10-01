@@ -23,7 +23,7 @@
           <li><a href = "../index.html">Home</a></li>
           <li><a href = "../aboutMe.html">About me</a></li>
           <li><a href = "../projects/project-template.html">Projects</a></li>
-          <li id="currentPage"><a href = "../blog/t1-git-blog.html">Blog</a></li>
+          <li id="currentPage"><a href = "../blog/c3_thinking-style.html">Blog</a></li>
         </ul>
 
 
@@ -47,33 +47,41 @@
 
     <div id="main">
       <div class="posting">
-        <h2>CSS Positioning: Relative, Absolute, Fixed</h2>
-        <p>2014. 09. 27</p>
-        <p>
-          In CSS files, web elements get styled with lots of css methods. For positioning them, there are 4 variables that can be used: static, relative, absolute, and fixed.
-        </p>
-        <p>
-          First, <em>position: static;</em> is the default value for web elements. If an element's position is not defined or defined as static, web elements will sit where they should be which means listing themselves in a webpage in the order of how they defined in the corresponding html file.
-        </p>
+        <h2>Array vs. Hash</h2>
+        <p>2014. 10. 01</p>
 
-        <h3>Relative:  <em>position: relative;</em></h3>
+        <h3>Array</h3>
           <p>
-            When an element is relatively positioned, the element can be moved with top, right, bottom and left values with respect to its original position. Its original place is still occupied for this element.
-
-            <p><img src="../img/relative.jpg"></p>
+            Array can be considered as a linear box that contains multiple elements. It can hold any types of data: numbers, strings, arrays, hashes and more.</br>
+            Basically array is defined as below and each element has index number.</br>
+            Index numbers start from 0 and it can be counted reversely from -1 which has the last element. This index number is useful to access each data in an array.
+            <p><img src="../img/array.jpg"></p>
+            To access an element with its index number, we can write as array[index]. To get number 3 in the array defined in the example, write <code>array[2]</code>.</br>
+            <h4>Examples</h4>
+            <ul>
+              <li>String array: <code>strArray = ['Monday', 'Tuesday', 'Wednesday']</code></li>
+              <li>Multidimensional array: <code>multiArray = [[1,2,3],[4,5,6],[7,8,9]] </code></li>
+              <li><code>strArray << 'Thursday'</code> will add a value to strArray.</br> <code>strArray = ['Monday', 'Tuesday', 'Wednesday', 'Thursday']</code></li>
+              <li><code>array[4]=7</code> will change the value in the index number 4.</br> <code>array = [1,2,3,4,7]</code></li>
+            </ul>
+            </br></br>
 
           </p>
-        <h3>Absolute:  <em>position: absolute;</em></h3>
+        <h3>Hash</h3>
           <p>
-            When an element is absolutely positioned, the element is placed relative to its first parent element. Here, it is important to know that the parent that the element is refering to should be other than static position and if there isn't any appropriate parent to refer to, it refers to <html> block. It also uses top, right, bottom and left values to move the element, but in this case the element does not leave its original space reserved like relatively positioned and moved element.
-            <p><img src="../img/absolute.jpg"></p>
+            Hash is like a dictionary which has pairs of a keys and its value. It also can hold any types of data. It is good to put keys as a symbol. Keys act like index numbers to get its value, but it can also be accessed with index numbers starting from 0 like arrays.
+            <p><img src="../img/hash.jpg"></p>
+            <h4>Examples</h4>
+            <ul>
+              <li>Get a value using a key: <code>hash[:name]</code> is Hailey</li>
+              <li>Change a value of a key: <code>hash[:color] = yellow</code></br>Then, <code>hash = {:name => Hailey, :color => yellow, :city => Vancouver}</code></li>
+              <li>Add a pair: <code>hash[:school] = 'UBC'</code></li>
+            </ul>
           </p>
 
-        <h3>Fixed:  <em>position: fixed;</em></h3>
+
+
           <p>
-            When an element's position is fixed, it means that it always stays where it is positioned within the browser window. It does not move even when a page is scrolled down or up. The element does not take any other space other than it's current space and it can overlap other elements. In other words, other elements's position won't be affected by it.
-
-
           </p>
 
       </div>
