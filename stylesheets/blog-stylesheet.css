@@ -166,11 +166,12 @@ list-style: none;
 
 
 
-
-pre {
-    white-space: pre-wrap;
-}
-code{
+pre, code{
   font-size: 15.5px;
   color:#4169E1;
+  margin: 0px;
+}
+
+li {
+  margin-bottom: 5px;
 }

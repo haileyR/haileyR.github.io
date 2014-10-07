@@ -23,7 +23,7 @@
           <li><a href = "../index.html">Home</a></li>
           <li><a href = "../aboutMe.html">About me</a></li>
           <li><a href = "../projects/project-template.html">Projects</a></li>
-          <li id="currentPage"><a href = "../blog/t2-css-design.html">Blog</a></li>
+          <li id="currentPage"><a href = "../blog/t4-enumerable-methods.html">Blog</a></li>
         </ul>
 
 
@@ -47,34 +47,34 @@
 
     <div id="main">
       <div class="posting">
-        <h2>CSS Positioning: Relative, Absolute, Fixed</h2>
-        <p>2014. 09. 27</p>
-        <p>
-          In CSS files, web elements get styled with lots of css methods. For positioning them, there are 4 variables that can be used: static, relative, absolute, and fixed.
-        </p>
-        <p>
-          First, <em>position: static;</em> is the default value for web elements. If an element's position is not defined or defined as static, web elements will sit where they should be which means listing themselves in a webpage in the order of how they defined in the corresponding html file.
-        </p>
+        <h2>Enumerable Methods: map</h2>
+        <p>2014. 10. 01</p>
 
-        <h3>Relative:  <em>position: relative;</em></h3>
+        <h3>Enumerable#map</h3>
           <p>
-            When an element is relatively positioned, the element can be moved with top, right, bottom and left values with respect to its original position. Its original place is still occupied for this element.
+            <em>map</em> gives a new array of whatever is returned in a block.</br>
+            <p><img src="../img/enum_map.jpg"></p>
 
-            <p><img src="../img/relative.jpg"></p>
+            <h4>Examples</h4>
+            <ul>
+              <li>Capitalize words in an array: </br>
+                <pre>words = ['monday', 'tuesday', 'wednesday']
+words.map {|word| word.capitalize}</pre>
+will return ['Monday', 'Tuesday', 'Wednesday'].
+              </li>
+              <li>Do some math: </br>
+                <pre>numbers = [1,2,3,4,5,]
+numbers.map {|n| n*2}</pre>
+will return [2,4,6,8,10].
+</li>
 
+            </ul>
+            </br></br>
           </p>
-        <h3>Absolute:  <em>position: absolute;</em></h3>
-          <p>
-            When an element is absolutely positioned, the element is placed relative to its first parent element. Here, it is important to know that the parent that the element is refering to should be other than static position and if there isn't any appropriate parent to refer to, it refers to <html> block. It also uses top, right, bottom and left values to move the element, but in this case the element does not leave its original space reserved like relatively positioned and moved element.
-            <p><img src="../img/absolute.jpg"></p>
-          </p>
-
-        <h3>Fixed:  <em>position: fixed;</em></h3>
-          <p>
-            When an element's position is fixed, it means that it always stays where it is positioned within the browser window. It does not move even when a page is scrolled down or up. The element does not take any other space other than it's current space and it can overlap other elements. In other words, other elements's position won't be affected by it.
 
 
-          </p>
+
+
 
       </div>
 
