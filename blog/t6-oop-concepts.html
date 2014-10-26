@@ -23,7 +23,7 @@
           <li><a href = "../index.html">Home</a></li>
           <li><a href = "../aboutMe.html">About me</a></li>
           <li><a href = "../projects/project-template.html">Projects</a></li>
-          <li id="currentPage"><a href = "../blog/t5-ruby-classes.html">Blog</a></li>
+          <li id="currentPage"><a href = "../blog/t6-oop-concepts.html">Blog</a></li>
         </ul>
 
 
@@ -47,19 +47,20 @@
 
     <div id="main">
       <div class="posting">
-        <h2>Ruby Class</h2>
-        <p>2014. 10. 19</p>
+        <h2>Ruby Class Vs. Module</h2>
+        <p>2014. 10. 25</p>
 
-        <h3>Class definition</h3>
-          <p>Class is defined as the below example. It usually has initialize method to initialize the class with/ without arguments.
-            <p><img src="../img/classdef.jpg"></p>
-            Variables with a @ sign are classified as instance variables. These variables are accessable within this class. It can be modified, updated. If we want to read or modify its value outside of the class definition, we can set them with attr_reader to read, attr_writer to write different value to it and attr_accessor to do both. Instead, we want to limit the access as we want for protect the values in some case.
+        <p>I've discusses about Ruby Classes on the last blog <a href = "../blog/t6-oop-concepts.html">posting</a>. Classes can be instantiated and is for object creation. It consists of methods, constants, methods, constants, and variables. Ruby Class's inheritance hierarchy of Class < Module < Object < BasicObject. This can be said that class is a subclass of "Module" which is a subclass of "Object."</p>
+        <h3>Module</h3>
+          <p>Unlike classes, modules cannot be instantiated and groups methods, constants, and also classes. The benefits of using modules are providing <em>namespace</em> which prevents name clashes and implmenting the <em>mixin</em> facility.
+          <p><img src="../img/muduledef.jpg"></p>
+          <h4>Namespace</h4>
+          Methods in different modules can have a same name like 'cos' in the example. In this case, each method can be called <code>Name.cos</code> or <code>Trig.cos</code> just as method calling for classes. To use constants defined in modules, we use double colons "::" such as <code>Trig::PI</code>.
 
-            <h4>Examples</h4>
-            Here are some example use of Pastry class.
-            <p><img src="../img/classuse.jpg"></p>
-            <code>apple_pie = Pastry.new(["flour", "butter", "sugar", "apple"], 5)</code> is making an instance of Pastry class.
-            Since we set price as attr_reader <code>attr_reader :price</code>, we can read the value of price outside of the class definition.
+          <h4>Mixin</h4>
+          Mixin facility allows no need of multiple inheritance.
+          <p><img src="../img/muduleuse.jpg"></p>
+          Just by using "<code>include</code> module" in a class definition, we can use the included module's methods and constants.
 
 
             </br></br>
