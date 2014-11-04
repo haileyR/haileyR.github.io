@@ -83,7 +83,27 @@ h3{
   padding-bottom: 300px;
 }
 
+#cheatsheet{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Coming Soon", "Comic Sans MS", "Comic Sans MS", sans-serif;
+  font-size: 25px;
+  color: #708090;
+  padding-bottom: 200px;
+}
 
+table{
+  border-spacing: 0px;
+  border: 2px solid #B0C4DE;;
+}
+th, td{
+  padding: 7px;
+  border: 1px solid #B0C4DE;;
+}
+th{
+  background-color: #B0C4DE;
+}
 
 #footerCont{
   position: absolute;
