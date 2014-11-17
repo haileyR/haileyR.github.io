@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>  Enumerable Methods |  Haily's Blog </title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/blog-stylesheet.css">
+    <link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div id="main">
+
+    <header>
+      <h1>Hailey HanGyeol Ryu</h1>
+      <h2>Hailey's Blog</h2>
+      <img src = "/img/myphoto.jpg">
+
+
+    <nav role="navigation">
+      <ul>
+        <li><a href = "/index.html">Home</a></li>
+        <li><a href = "/aboutMe.html">About me</a></li>
+        <li><a href = "/projects/project-template.html">Projects</a></li>
+        <li><a href = "/portfolio">Blog</a></li>
+      </ul>
+    </nav>
+
+    </header>
+
+
+    <div class="posting">
+              <h2>Enumerable Methods: map</h2>
+        <p>2014. 10. 01</p>
+
+        <h3>Enumerable#map</h3>
+          <p>
+            <em>map</em> gives a new array of whatever is returned in a block.</br>
+            <p><img src="/img/enum_map.jpg"></p>
+
+            <h4>Examples</h4>
+            <ul>
+              <li>Capitalize words in an array: </br>
+                <pre>words = ['monday', 'tuesday', 'wednesday']
+words.map {|word| word.capitalize}</pre>
+will return ['Monday', 'Tuesday', 'Wednesday'].
+              </li>
+              <li>Do some math: </br>
+                <pre>numbers = [1,2,3,4,5,]
+numbers.map {|n| n*2}</pre>
+will return [2,4,6,8,10].
+</li>
+
+            </ul>
+            </br></br>
+          </p>
+    </div>
+
+    <div id="right-col">
+        <div id="search" >
+          <input type="search" placeholder="Search..." name="search" size="30">
+        </div>
+        <div class="postlist">
+          <h3>Recent Postings</h3>
+          <ul>
+            <li><a href="/2014/11/05/tech.html">Big O Complexity and Notation</a></li>
+            <li><a href="/2014/11/05/conflict.html">Conflict about my path</a></li>
+            <li><a href="/2014/10/30/javascript.html">Ruby Hashes vs. JavaScript Objects</a></li>
+            <li><a href="/2014/10/25/oop-concepts.html">Ruby Class Vs. Module</a></li>
+            <li><a href="/2014/10/24/values.html">Affirmation and Stereotype Threat</a></li>
+            <li><a href="/2014/10/24/stereotype-threat.html">Stereotype Threat</a></li>
+          </ul>
+        </div>
+        <div class="postlist">
+          <h3>Popular Postings</h3>
+          <ol>
+            <li><a href="/2014/11/05/tech.html">Big O Complexity and Notation</a></li>
+            <li><a href="/2014/11/05/conflict.html">Conflict about my path</a></li>
+            <li><a href="/2014/10/30/javascript.html">Ruby Hashes vs. JavaScript Objects</a></li>
+            <li><a href="/2014/10/25/oop-concepts.html">Ruby Class Vs. Module</a></li>
+            <li><a href="/2014/10/24/values.html">Affirmation and Stereotype Threat</a></li>
+            <li><a href="/2014/10/24/stereotype-threat.html">Stereotype Threat</a></li>
+          </ol>
+        </div>
+    </div>
+
+
+
+  </div>
+</body>
+    <footer>
+      <p>@copy; HanGyeol Hailey Ryu's Daily 2014 | All Rights Reserved. </p>
+    </footer>
+</html>
+
+

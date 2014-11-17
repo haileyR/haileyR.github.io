@@ -1,0 +1,27 @@
+---
+layout: default_blog
+---
+        <h2>Big O Complexity and Notation</h2>
+        <p>2014. 11. 05</p>
+
+          <p>
+            Big-O Notation describes the efficiency of an argorithem including its complexity and performance and for the worst-case scenario. The performance is about the required execution time and the space (memory/disk) needed to run a program. It depends on the machine and the compiler, but the code also matters. Also, the complexity is about how it gets complexed when the problem being solved gets larger.</br>
+            In this posting, I will cover three basic notations with examples.
+
+            <h3>O(1): constant - order 1</h3>
+            <p>
+              The line #384 and #389 are simple statements and the time required for each statement and also the total execution time is contant.
+            </p>
+            <p><img src="/img/t8_ex_1.png"></p>
+            <h3>O(N): linear - order N</h3>
+            <p>
+              'if' and 'else' statement is order N since when the 'if' statement is false, it goes to the 'else' statement and this is the longer(worse in execution time wise) case. Also, like in the example from like # 385 to #388, looping is order N. The example loop will be executed 'exp' times. Since we have two simple statement inside the loop, The example while loop is O(2N).
+            </p>
+            <h3>O(N^2): quadratic - order N squared</h3>
+            <p>
+              This is for the total complexity for the two loops when one is nested.
+            </p>
+</br>
+            <h4>Cheatsheet</h4>
+            I foun a great cheatsheet that will be very useful. <a href="http://bigocheatsheet.com/">Big O Complexity Cheatsheet</a>
+          </p>
