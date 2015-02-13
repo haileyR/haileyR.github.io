@@ -32,7 +32,7 @@ h1{
 }
 h2{
   font-size: 2em;
-  font-family: 'Coming Soon', "Trebuchet MS", Helvetica, 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 
 nav{
@@ -70,7 +70,7 @@ a{
 
 header{
   display: inline-block;
-
+  height: 87px;
   background-color: white;
   margin: 0 auto;
   width: 100%;
